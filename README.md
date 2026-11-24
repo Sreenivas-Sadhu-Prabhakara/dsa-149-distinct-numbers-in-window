@@ -12,6 +12,13 @@ Between adjacent windows exactly two things change: one value enters, one leaves
 
 **Complexity:** O(n) time, O(k) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
